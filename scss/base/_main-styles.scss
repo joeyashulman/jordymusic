@@ -1,9 +1,11 @@
-.landing-base {
-    background: url(../images/jordy_billboard_final-1.jpeg);
-    height: 100%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-
+* {
+    font-family: Bebas Neue;
 }
 
+.landing-base {
+    background: url(../images/jordy_billboard_final-1.jpeg);
+    min-height: calc(100vh - 72px);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
