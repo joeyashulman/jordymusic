@@ -36,7 +36,7 @@
     display: inline-block;
     text-transform: uppercase;
     font-family: Bebas Neue;
-    font-size: 18px;
+    font-size: 21px;
     text-align: center;
     font-weight: 500;
   }
@@ -49,16 +49,22 @@
       display: none;
   }
 
-  @media (min-width: 540px) {
+  @media (min-width: 580px) {
     .header-logo {
       display: block;
       float: left;
       font-family: Bebas Neue;
-      font-size: 30px;
+      font-size: 50px;
       margin-left: 50px;
-      padding-top: 20px;
+      padding-top: 12px;
       color: black;
       font-weight: 800;
+    }
+
+    .heartlogo {
+      height: 37px;
+      width: 40px;
+      margin-right: 15px;
     }
   
     li {
