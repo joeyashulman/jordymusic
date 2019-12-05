@@ -9,12 +9,29 @@
   background-repeat: no-repeat;
   background-size: cover; }
 
+.music-base {
+  display: flex;
+  background: url(../images/show.jpg);
+  min-height: calc(100vh - 72px);
+  max-height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; }
+
 .comingsoon {
   margin: auto;
   color: white;
   text-align: center;
   padding-top: 300px;
   font-size: 50px; }
+
+.player {
+  display: flex;
+  position: relative;
+  margin: auto; }
+  @media (min-width: 580px) {
+    .player {
+      margin-left: 10%; } }
 
 h1 {
   margin: 0; }
