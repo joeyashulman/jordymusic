@@ -7,7 +7,9 @@
   max-height: 100vh;
   background-position: top;
   background-repeat: no-repeat;
-  background-size: cover; }
+  background-size: cover;
+  clear: both;
+  margin-top: 72px; }
 
 .music-base {
   display: flex;
@@ -16,14 +18,49 @@
   max-height: 100vh;
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover; }
+  background-size: cover;
+  margin-top: 72px; }
 
-.comingsoon {
+.shows-base {
+  width: 90%;
   margin: auto;
-  color: white;
+  max-width: 1000px;
+  margin-bottom: 100px;
+  margin-top: 72px; }
+
+.tour-header {
+  font-size: 40px;
   text-align: center;
-  padding-top: 300px;
-  font-size: 50px; }
+  margin-top: 50px; }
+
+.tour-photo-container {
+  width: 90%;
+  margin: auto; }
+  @media (min-width: 580px) {
+    .tour-photo-container {
+      max-width: 700px;
+      text-align: center; } }
+
+.tour-photo {
+  width: 100%;
+  margin-top: 25px; }
+
+.tour {
+  display: block;
+  text-align: center;
+  width: 100%;
+  margin-top: 50px;
+  font-size: 21px; }
+  @media (min-width: 580px) {
+    .tour {
+      font-size: 38px; } }
+
+.scripty {
+  display: block;
+  width: 90%;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto; }
 
 .player {
   display: flex;
@@ -32,6 +69,30 @@
   @media (min-width: 580px) {
     .player {
       margin-left: 10%; } }
+
+.contact {
+  margin: auto;
+  margin: 172px 0px;
+  line-height: 10px; }
+
+.contact-head {
+  text-align: center;
+  color: black;
+  font-size: 32px;
+  font-weight: 800;
+  text-decoration: underline; }
+
+.name {
+  text-align: center;
+  color: black;
+  font-size: 32px;
+  font-weight: 300; }
+
+.email {
+  text-align: center;
+  color: black;
+  font-size: 32px;
+  font-weight: 400; }
 
 h1 {
   margin: 0; }
@@ -73,6 +134,9 @@ ul {
   text-align: center; }
 
 header {
+  position: fixed;
+  left: 0px;
+  top: 0px;
   height: 72px;
   width: 100%;
   background-color: white;
@@ -132,13 +196,28 @@ a {
     clear: both;
     display: table; } }
 footer {
-  position: absolute;
-  bottom: 0;
+  position: fixed;
+  left: 0px;
+  bottom: 0px;
+  height: 40px;
+  width: 100%; }
+
+.footer-alt {
+  position: fixed;
+  left: 0px;
+  bottom: 0px;
+  height: 40px;
   width: 100%;
-  height: 40px; }
+  background-color: black;
+  padding-top: 16px; }
 
 .footer-icon {
   color: white;
+  display: inline-block;
+  margin-right: 25px; }
+
+.footer-icon-black {
+  color: black;
   display: inline-block;
   margin-right: 25px; }
 

@@ -1,13 +1,37 @@
+// footer {
+//     position: absolute;
+//     bottom: 0;
+//     width: 100%;
+//     height: 40px;
+// }
+
 footer {
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    height: 40px;
+   position:fixed;
+   left:0px;
+   bottom:0px;
+   height:40px;
+   width:100%;
 }
 
 
+.footer-alt {
+    position:fixed;
+    left:0px;
+    bottom:0px;
+    height:40px;
+    width:100%;
+    background-color: black;
+    padding-top: 16px;
+ }
+
 .footer-icon {
     color: white;
+    display: inline-block;
+    margin-right: 25px;
+}
+
+.footer-icon-black {
+    color: black;
     display: inline-block;
     margin-right: 25px;
 }
