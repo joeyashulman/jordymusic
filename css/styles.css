@@ -2,6 +2,7 @@
   font-family: Bebas Neue; }
 
 .landing-base {
+  display: flex;
   background: url(../images/jordy_billboard_final-1.jpeg);
   min-height: calc(100vh - 72px);
   max-height: 100vh;
@@ -10,6 +11,30 @@
   background-size: cover;
   clear: both;
   margin-top: 72px; }
+
+.button-house {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+
+button {
+  background-color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 21px;
+  color: black;
+  padding: 15px;
+  transition: .25s ease-in-out; }
+
+button:hover {
+  color: white;
+  padding: 20px;
+  transition: .25s ease-in-out;
+  cursor: pointer; }
+
+a.button, a.button:hover {
+  text-decoration: none; }
 
 .music-base {
   display: flex;
