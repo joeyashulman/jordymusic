@@ -1,5 +1,6 @@
 * {
-  font-family: Bebas Neue; }
+  font-family: Bebas Neue;
+}
 
 .landing-base {
   display: flex;
@@ -10,13 +11,15 @@
   background-repeat: no-repeat;
   background-size: cover;
   clear: both;
-  margin-top: 72px; }
+  margin-top: 72px;
+}
 
 .button-house {
   width: 100%;
   display: flex;
   align-items: center;
-  justify-content: center; }
+  justify-content: center;
+}
 
 button {
   background-color: white;
@@ -25,16 +28,19 @@ button {
   font-size: 21px;
   color: black;
   padding: 15px;
-  transition: .25s ease-in-out; }
+  transition: 0.25s ease-in-out;
+}
 
 button:hover {
   color: white;
   padding: 20px;
-  transition: .25s ease-in-out;
-  cursor: pointer; }
+  transition: 0.25s ease-in-out;
+  cursor: pointer;
+}
 
 a.button, a.button:hover {
-  text-decoration: none; }
+  text-decoration: none;
+}
 
 .music-base {
   display: flex;
@@ -44,90 +50,111 @@ a.button, a.button:hover {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  margin-top: 72px; }
+  margin-top: 72px;
+}
 
 .shows-base {
   width: 90%;
   margin: auto;
   max-width: 1000px;
   margin-bottom: 100px;
-  margin-top: 72px; }
+  margin-top: 72px;
+}
 
 .tour-header {
   font-size: 40px;
   text-align: center;
-  margin-top: 50px; }
+  margin-top: 50px;
+}
 
 .tour-photo-container {
   width: 90%;
-  margin: auto; }
-  @media (min-width: 580px) {
-    .tour-photo-container {
-      max-width: 700px;
-      text-align: center; } }
+  margin: auto;
+}
+@media (min-width: 580px) {
+  .tour-photo-container {
+    max-width: 700px;
+    text-align: center;
+  }
+}
 
 .tour-photo {
   width: 100%;
-  margin-top: 25px; }
+  margin-top: 25px;
+}
 
 .tour {
   display: block;
   text-align: center;
   width: 100%;
   margin-top: 122px;
-  font-size: 21px; }
-  @media (min-width: 580px) {
-    .tour {
-      font-size: 38px; } }
+  font-size: 21px;
+}
+@media (min-width: 580px) {
+  .tour {
+    font-size: 38px;
+  }
+}
 
 .scripty {
   display: block;
   width: 90%;
   margin-top: 50px;
   margin-left: auto;
-  margin-right: auto; }
+  margin-right: auto;
+}
 
 .player {
   display: flex;
   position: relative;
-  margin: auto; }
-  @media (min-width: 580px) {
-    .player {
-      margin-left: 10%; } }
+  margin: auto;
+}
+@media (min-width: 580px) {
+  .player {
+    margin-left: 10%;
+  }
+}
 
 .contact {
   margin: auto;
   margin: 172px 0px;
-  line-height: 10px; }
+  line-height: 10px;
+}
 
 .contact-head {
   text-align: center;
   color: black;
   font-size: 32px;
   font-weight: 800;
-  text-decoration: underline; }
+  text-decoration: underline;
+}
 
 .name {
   text-align: center;
   color: black;
   font-size: 32px;
-  font-weight: 300; }
+  font-weight: 300;
+}
 
 .email {
   text-align: center;
   color: black;
   font-size: 32px;
-  font-weight: 400; }
+  font-weight: 400;
+}
 
 h1 {
-  margin: 0; }
+  margin: 0;
+}
 
 p {
   margin: 0px;
-  color: white; }
+  color: white;
+}
 
 .fab {
-  color: white; }
+  color: white;
+}
 
 @media (min-width: 580px) {
   .comingsoon {
@@ -135,28 +162,34 @@ p {
     color: white;
     text-align: center;
     padding-top: 300px;
-    font-size: 100px; } }
+    font-size: 100px;
+  }
+}
 .nav-item {
   text-decoration: none;
   color: black;
   display: block;
-  padding: 27px 15px 25px 15px; }
+  padding: 27px 15px 25px 15px;
+}
 
 body {
-  margin: 0; }
+  margin: 0;
+}
 
 p {
   font-size: 18px;
   font-weight: 400;
   color: #A0A0A0;
   line-height: 150%;
-  text-align: left; }
+  text-align: left;
+}
 
 ul {
   padding: 0;
   list-style-type: none;
   margin: auto;
-  text-align: center; }
+  text-align: center;
+}
 
 header {
   position: fixed;
@@ -166,7 +199,8 @@ header {
   width: 100%;
   background-color: white;
   box-shadow: 0px 2px 5px rgba(158, 158, 158, 0.25);
-  margin: 0; }
+  margin: 0;
+}
 
 li {
   display: inline-block;
@@ -174,13 +208,17 @@ li {
   font-family: Bebas Neue;
   font-size: 21px;
   text-align: center;
-  font-weight: 500; }
+  font-weight: 500;
+}
 
 a {
-  text-decoration: none; }
+  text-decoration: none;
+  color: black;
+}
 
 .header-logo {
-  display: none; }
+  display: none;
+}
 
 @media (min-width: 580px) {
   .header-logo {
@@ -191,22 +229,27 @@ a {
     margin-left: 50px;
     padding-top: 12px;
     color: black;
-    font-weight: 800; }
+    font-weight: 800;
+  }
 
   .heartlogo {
     height: 37px;
     width: 40px;
-    margin-right: 15px; }
+    margin-right: 15px;
+  }
 
   li {
-    display: inline-block; }
+    display: inline-block;
+  }
 
   a {
-    display: block; }
+    display: block;
+  }
 
   ul {
     margin-right: 50px;
-    text-align: right; }
+    text-align: right;
+  }
 
   .jumbotron {
     text-align: center;
@@ -214,18 +257,22 @@ a {
     font-weight: 900;
     width: 80%;
     max-width: 1000px;
-    margin: auto; }
+    margin: auto;
+  }
 
   .clearfix::after {
     content: "";
     clear: both;
-    display: table; } }
+    display: table;
+  }
+}
 footer {
   position: fixed;
   left: 0px;
   bottom: 0px;
   height: 40px;
-  width: 100%; }
+  width: 100%;
+}
 
 .footer-alt {
   position: fixed;
@@ -234,33 +281,42 @@ footer {
   height: 40px;
   width: 100%;
   background-color: black;
-  padding-top: 16px; }
+  padding-top: 16px;
+}
 
 .footer-icon {
   color: white;
   display: inline-block;
-  margin-right: 25px; }
+  margin-right: 25px;
+}
 
 .footer-icon-black {
   color: black;
   display: inline-block;
-  margin-right: 25px; }
+  margin-right: 25px;
+}
 
 .footer-nav {
-  margin: auto; }
-  @media (min-width: 580px) {
-    .footer-nav {
-      float: left;
-      margin-left: 25px; } }
+  margin: auto;
+}
+@media (min-width: 580px) {
+  .footer-nav {
+    float: left;
+    margin-left: 25px;
+  }
+}
 
 .copyright {
   display: none;
-  padding: 0px; }
-  @media (min-width: 580px) {
-    .copyright {
-      display: block;
-      float: right;
-      margin-right: 25px;
-      color: white; } }
+  padding: 0px;
+}
+@media (min-width: 580px) {
+  .copyright {
+    display: block;
+    float: right;
+    margin-right: 25px;
+    color: white;
+  }
+}
 
 /*# sourceMappingURL=styles.css.map */
